@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.main {
+  position: relative;
+  @apply min-h-screen;
+ /* min-height: 100%; */
+}
+.header-height {
+  height: 75px;
+}
+.link-hover {
+  @apply hover:text-red-700 hover:underline hover:underline-offset-4;
+}
+.stat-btn-view {
+  @apply inline-flex items-center justify-center text-sm font-medium text-blue-600;
+} 
+.outlined-action-btn {
+  @apply flex text-sm outline outline-1 h-fit outline-softGreen rounded;
+}
+.grid-col {
+  @apply flex bg-white rounded-md;
+}
