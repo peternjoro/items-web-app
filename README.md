@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+To run the web app locally,
+
+1. Clone the project in your vafourite drive, C://, D:// etc
+2. Open your terminal inside the project folder
+3. Run the command, npm install
+4. To run the web app, run the command, npm run dev, the application should run on port 8054
+5. Go to your browser and enter the address, localhost:8054, the application should run successfully
+
 ## Getting Started
 
 First, run the development server:
