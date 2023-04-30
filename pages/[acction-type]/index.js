@@ -87,7 +87,7 @@ export default function ItemAction(){
     }
 
     return (
-        <Layout pageTitle={``}>
+        <Layout pageTitle={action}>
             <div className="flex flex-col w-full h-full">
                 <div className="flex items-center justify-between w-full mt-5 mb-7">
                     <h3><strong>{action}</strong></h3>

@@ -46,13 +46,13 @@ export default function Layout({ pageTitle, children }){
                 <title>{ pageTitle ? pageTitle : 'Products' }</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link rel="icon" href="/images/imgholder.png" />
+                <link rel="icon" href="/images/identigate-sm.png" />
             </Head>
             <main className={`flex flex-col main`}>
                 <div className="w-full bg-white shadow-md header-height">
                     <div className="container flex items-center justify-between h-full mx-auto">
                         <div className="flex ml-5 md:ml-0">
-                            <Image priority alt="Identigate" src="/images/imgholder.png" height={50} width={50}/>
+                            <Image priority alt="Identigate" src="/images/identigate.png" height={50} width={150}/>
                         </div>
                         <div className="flex flex-row mr-3 md:mr-0">
                             {loggedIn ? (
